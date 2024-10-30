@@ -1,0 +1,26 @@
+.App{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://www.shutterstock.com/image-illustration/coronavirus-cells-illustration-backdrop-covid19-600nw-1678675126.jpg);
+  background-position: center;
+  background-size: cover;
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 150px;
+    background-color: white;
+  }
+  input{
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+}
